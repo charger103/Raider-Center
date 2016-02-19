@@ -284,27 +284,6 @@
 			remoteGlobalIDString = C45C182E1C1785380021D68D;
 			remoteInfo = "Raider CenterBackUITests";
 		};
-		0CAADC3C1C7527A8000FFF77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0CAADC361C7527A8000FFF77 /* Raider CenterBack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C45C180A1C1785380021D68D;
-			remoteInfo = "Raider CenterBack";
-		};
-		0CAADC3E1C7527A8000FFF77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0CAADC361C7527A8000FFF77 /* Raider CenterBack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C45C18231C1785380021D68D;
-			remoteInfo = "Raider CenterBackTests";
-		};
-		0CAADC401C7527A8000FFF77 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0CAADC361C7527A8000FFF77 /* Raider CenterBack.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C45C182E1C1785380021D68D;
-			remoteInfo = "Raider CenterBackUITests";
-		};
 		17AE47E675A6FDDC2AFF972A34ACB75B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -470,7 +449,6 @@
 		0AB0EC644873FE3EF1A65E130461BBB7 /* PlayButtonOverlayLargeTap@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "PlayButtonOverlayLargeTap@2x.png"; path = "Pod/Assets/PlayButtonOverlayLargeTap@2x.png"; sourceTree = "<group>"; };
 		0B119DD506F194E3DC54461410FA2226 /* YLImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLImageView.m; path = YLGIFImage/YLImageView.m; sourceTree = "<group>"; };
 		0CAADC2A1C7527A0000FFF77 /* Raider CenterBack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Raider CenterBack.xcodeproj"; sourceTree = "<group>"; };
-		0CAADC361C7527A8000FFF77 /* Raider CenterBack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Raider CenterBack.xcodeproj"; sourceTree = "<group>"; };
 		0D02063916E9DD39303CF35254D9AA2D /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFCA95159E4A1125D633D82A546C4FB /* AQGridView+CellLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AQGridView+CellLayout.h"; path = "Classes/AQGridView+CellLayout.h"; sourceTree = "<group>"; };
 		0E055EC90DDB7B376DB7392AC04BF059 /* MWPhotoBrowserPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWPhotoBrowserPrivate.h; path = Pod/Classes/MWPhotoBrowserPrivate.h; sourceTree = "<group>"; };
@@ -930,16 +908,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0CAADC371C7527A8000FFF77 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0CAADC3D1C7527A8000FFF77 /* Raider CenterBack.app */,
-				0CAADC3F1C7527A8000FFF77 /* Raider CenterBack.xctest */,
-				0CAADC411C7527A8000FFF77 /* Raider CenterBack.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		16440A0EE8EFF2CB8263D4A437C896F7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1139,7 +1107,6 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				0CAADC361C7527A8000FFF77 /* Raider CenterBack.xcodeproj */,
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				785553737B06AFC3DA711DDEB7D56194 /* Frameworks */,
 				AEB366DB16B1FBBA95D0DE0D1DEC221B /* Pods */,
@@ -2046,10 +2013,6 @@
 					ProductGroup = 0CAADC2B1C7527A0000FFF77 /* Products */;
 					ProjectRef = 0CAADC2A1C7527A0000FFF77 /* Raider CenterBack.xcodeproj */;
 				},
-				{
-					ProductGroup = 0CAADC371C7527A8000FFF77 /* Products */;
-					ProjectRef = 0CAADC361C7527A8000FFF77 /* Raider CenterBack.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -2093,27 +2056,6 @@
 			fileType = wrapper.cfbundle;
 			path = "Raider CenterBack.xctest";
 			remoteRef = 0CAADC341C7527A0000FFF77 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0CAADC3D1C7527A8000FFF77 /* Raider CenterBack.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Raider CenterBack.app";
-			remoteRef = 0CAADC3C1C7527A8000FFF77 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0CAADC3F1C7527A8000FFF77 /* Raider CenterBack.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Raider CenterBack.xctest";
-			remoteRef = 0CAADC3E1C7527A8000FFF77 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		0CAADC411C7527A8000FFF77 /* Raider CenterBack.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Raider CenterBack.xctest";
-			remoteRef = 0CAADC401C7527A8000FFF77 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
