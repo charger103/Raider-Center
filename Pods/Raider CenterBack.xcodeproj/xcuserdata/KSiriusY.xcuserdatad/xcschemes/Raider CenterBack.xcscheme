@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C45C18091C1785380021D68D"
-               BuildableName = "Raider Center.app"
-               BlueprintName = "Raider Center"
-               ReferencedContainer = "container:Raider Center.xcodeproj">
+               BuildableName = "Raider CenterBack.app"
+               BlueprintName = "Raider CenterBack"
+               ReferencedContainer = "container:Raider CenterBack.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C45C18221C1785380021D68D"
-               BuildableName = "Raider CenterTests.xctest"
-               BlueprintName = "Raider CenterTests"
-               ReferencedContainer = "container:Raider Center.xcodeproj">
+               BuildableName = "Raider CenterBack.xctest"
+               BlueprintName = "Raider CenterBackTests"
+               ReferencedContainer = "container:Raider CenterBack.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C45C182D1C1785380021D68D"
-               BuildableName = "Raider CenterUITests.xctest"
-               BlueprintName = "Raider CenterUITests"
-               ReferencedContainer = "container:Raider Center.xcodeproj">
+               BuildableName = "Raider CenterBack.xctest"
+               BlueprintName = "Raider CenterBackUITests"
+               ReferencedContainer = "container:Raider CenterBack.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C45C18091C1785380021D68D"
-            BuildableName = "Raider Center.app"
-            BlueprintName = "Raider Center"
-            ReferencedContainer = "container:Raider Center.xcodeproj">
+            BuildableName = "Raider CenterBack.app"
+            BlueprintName = "Raider CenterBack"
+            ReferencedContainer = "container:Raider CenterBack.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C45C18091C1785380021D68D"
-            BuildableName = "Raider Center.app"
-            BlueprintName = "Raider Center"
-            ReferencedContainer = "container:Raider Center.xcodeproj">
+            BuildableName = "Raider CenterBack.app"
+            BlueprintName = "Raider CenterBack"
+            ReferencedContainer = "container:Raider CenterBack.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C45C18091C1785380021D68D"
-            BuildableName = "Raider Center.app"
-            BlueprintName = "Raider Center"
-            ReferencedContainer = "container:Raider Center.xcodeproj">
+            BuildableName = "Raider CenterBack.app"
+            BlueprintName = "Raider CenterBack"
+            ReferencedContainer = "container:Raider CenterBack.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

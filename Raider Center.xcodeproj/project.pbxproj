@@ -61,7 +61,7 @@
 		0CC007461C751A75006CA61C /* FeedUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedUser.m; path = Model/FeedUser.m; sourceTree = "<group>"; };
 		90D2CEE813F268F50BD2C57E /* Pods-Raider Center.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Raider Center.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Raider Center/Pods-Raider Center.debug.xcconfig"; sourceTree = "<group>"; };
 		94C8BAA8F84D4A0539AE5E7A /* libPods-Raider Center.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Raider Center.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C45C180A1C1785380021D68D /* Raider CenterFront.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raider CenterFront.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45C180A1C1785380021D68D /* Raider Center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raider Center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45C18101C1785380021D68D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C45C18111C1785380021D68D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C45C18131C1785380021D68D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -70,10 +70,10 @@
 		C45C18191C1785380021D68D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C45C181C1C1785380021D68D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C45C181E1C1785380021D68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C45C18231C1785380021D68D /* Raider CenterFront.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raider CenterFront.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45C18231C1785380021D68D /* Raider Center.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raider Center.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45C18271C1785380021D68D /* Raider_CenterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Raider_CenterTests.m; sourceTree = "<group>"; };
 		C45C18291C1785380021D68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C45C182E1C1785380021D68D /* Raider CenterFront.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raider CenterFront.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45C182E1C1785380021D68D /* Raider Center.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Raider Center.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45C18321C1785380021D68D /* Raider_CenterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Raider_CenterUITests.m; sourceTree = "<group>"; };
 		C45C18341C1785380021D68D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,9 +158,9 @@
 		C45C180B1C1785380021D68D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C45C180A1C1785380021D68D /* Raider CenterFront.app */,
-				C45C18231C1785380021D68D /* Raider CenterFront.xctest */,
-				C45C182E1C1785380021D68D /* Raider CenterFront.xctest */,
+				C45C180A1C1785380021D68D /* Raider Center.app */,
+				C45C18231C1785380021D68D /* Raider Center.xctest */,
+				C45C182E1C1785380021D68D /* Raider Center.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,9 +217,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C45C18091C1785380021D68D /* Raider CenterFront */ = {
+		C45C18091C1785380021D68D /* Raider Center */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C45C18371C1785380021D68D /* Build configuration list for PBXNativeTarget "Raider CenterFront" */;
+			buildConfigurationList = C45C18371C1785380021D68D /* Build configuration list for PBXNativeTarget "Raider Center" */;
 			buildPhases = (
 				67CA4075920F12ECEA560E81 /* Check Pods Manifest.lock */,
 				C45C18061C1785380021D68D /* Sources */,
@@ -232,14 +232,14 @@
 			);
 			dependencies = (
 			);
-			name = "Raider CenterFront";
+			name = "Raider Center";
 			productName = "Raider Center";
-			productReference = C45C180A1C1785380021D68D /* Raider CenterFront.app */;
+			productReference = C45C180A1C1785380021D68D /* Raider Center.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C45C18221C1785380021D68D /* Raider CenterFrontTests */ = {
+		C45C18221C1785380021D68D /* Raider CenterTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C45C183A1C1785380021D68D /* Build configuration list for PBXNativeTarget "Raider CenterFrontTests" */;
+			buildConfigurationList = C45C183A1C1785380021D68D /* Build configuration list for PBXNativeTarget "Raider CenterTests" */;
 			buildPhases = (
 				C45C181F1C1785380021D68D /* Sources */,
 				C45C18201C1785380021D68D /* Frameworks */,
@@ -250,14 +250,14 @@
 			dependencies = (
 				C45C18251C1785380021D68D /* PBXTargetDependency */,
 			);
-			name = "Raider CenterFrontTests";
+			name = "Raider CenterTests";
 			productName = "Raider CenterTests";
-			productReference = C45C18231C1785380021D68D /* Raider CenterFront.xctest */;
+			productReference = C45C18231C1785380021D68D /* Raider Center.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C45C182D1C1785380021D68D /* Raider CenterFrontUITests */ = {
+		C45C182D1C1785380021D68D /* Raider CenterUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C45C183D1C1785380021D68D /* Build configuration list for PBXNativeTarget "Raider CenterFrontUITests" */;
+			buildConfigurationList = C45C183D1C1785380021D68D /* Build configuration list for PBXNativeTarget "Raider CenterUITests" */;
 			buildPhases = (
 				C45C182A1C1785380021D68D /* Sources */,
 				C45C182B1C1785380021D68D /* Frameworks */,
@@ -268,9 +268,9 @@
 			dependencies = (
 				C45C18301C1785380021D68D /* PBXTargetDependency */,
 			);
-			name = "Raider CenterFrontUITests";
+			name = "Raider CenterUITests";
 			productName = "Raider CenterUITests";
-			productReference = C45C182E1C1785380021D68D /* Raider CenterFront.xctest */;
+			productReference = C45C182E1C1785380021D68D /* Raider Center.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -298,7 +298,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C45C18051C1785380021D68D /* Build configuration list for PBXProject "Raider CenterFront" */;
+			buildConfigurationList = C45C18051C1785380021D68D /* Build configuration list for PBXProject "Raider Center" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -311,9 +311,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C45C18091C1785380021D68D /* Raider CenterFront */,
-				C45C18221C1785380021D68D /* Raider CenterFrontTests */,
-				C45C182D1C1785380021D68D /* Raider CenterFrontUITests */,
+				C45C18091C1785380021D68D /* Raider Center */,
+				C45C18221C1785380021D68D /* Raider CenterTests */,
+				C45C182D1C1785380021D68D /* Raider CenterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -433,12 +433,12 @@
 /* Begin PBXTargetDependency section */
 		C45C18251C1785380021D68D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C45C18091C1785380021D68D /* Raider CenterFront */;
+			target = C45C18091C1785380021D68D /* Raider Center */;
 			targetProxy = C45C18241C1785380021D68D /* PBXContainerItemProxy */;
 		};
 		C45C18301C1785380021D68D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C45C18091C1785380021D68D /* Raider CenterFront */;
+			target = C45C18091C1785380021D68D /* Raider Center */;
 			targetProxy = C45C182F1C1785380021D68D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -561,7 +561,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BaylorDEVTeam.Raider-Center";
-				PRODUCT_NAME = "Raider CenterFront";
+				PRODUCT_NAME = "Raider Center";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Raider Center/Raider Center-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -584,7 +584,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BaylorDEVTeam.Raider-Center";
-				PRODUCT_NAME = "Raider CenterFront";
+				PRODUCT_NAME = "Raider Center";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Raider Center/Raider Center-Bridging-Header.h";
 			};
@@ -597,8 +597,8 @@
 				INFOPLIST_FILE = "Raider CenterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BaylorDEV.Raider-CenterTests";
-				PRODUCT_NAME = "Raider CenterFront";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raider CenterFront.app/Raider CenterFront";
+				PRODUCT_NAME = "Raider Center";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raider Center.app/Raider Center";
 			};
 			name = Debug;
 		};
@@ -609,8 +609,8 @@
 				INFOPLIST_FILE = "Raider CenterTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BaylorDEV.Raider-CenterTests";
-				PRODUCT_NAME = "Raider CenterFront";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raider CenterFront.app/Raider CenterFront";
+				PRODUCT_NAME = "Raider Center";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raider Center.app/Raider Center";
 			};
 			name = Release;
 		};
@@ -620,7 +620,7 @@
 				INFOPLIST_FILE = "Raider CenterUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BaylorDEV.Raider-CenterUITests";
-				PRODUCT_NAME = "Raider CenterFront";
+				PRODUCT_NAME = "Raider Center";
 				TEST_TARGET_NAME = "Raider Center";
 				USES_XCTRUNNER = YES;
 			};
@@ -632,7 +632,7 @@
 				INFOPLIST_FILE = "Raider CenterUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BaylorDEV.Raider-CenterUITests";
-				PRODUCT_NAME = "Raider CenterFront";
+				PRODUCT_NAME = "Raider Center";
 				TEST_TARGET_NAME = "Raider Center";
 				USES_XCTRUNNER = YES;
 			};
@@ -641,7 +641,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C45C18051C1785380021D68D /* Build configuration list for PBXProject "Raider CenterFront" */ = {
+		C45C18051C1785380021D68D /* Build configuration list for PBXProject "Raider Center" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C45C18351C1785380021D68D /* Debug */,
@@ -650,7 +650,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C45C18371C1785380021D68D /* Build configuration list for PBXNativeTarget "Raider CenterFront" */ = {
+		C45C18371C1785380021D68D /* Build configuration list for PBXNativeTarget "Raider Center" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C45C18381C1785380021D68D /* Debug */,
@@ -659,7 +659,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C45C183A1C1785380021D68D /* Build configuration list for PBXNativeTarget "Raider CenterFrontTests" */ = {
+		C45C183A1C1785380021D68D /* Build configuration list for PBXNativeTarget "Raider CenterTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C45C183B1C1785380021D68D /* Debug */,
@@ -668,7 +668,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C45C183D1C1785380021D68D /* Build configuration list for PBXNativeTarget "Raider CenterFrontUITests" */ = {
+		C45C183D1C1785380021D68D /* Build configuration list for PBXNativeTarget "Raider CenterUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C45C183E1C1785380021D68D /* Debug */,
