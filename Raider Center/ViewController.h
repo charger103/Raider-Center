@@ -33,11 +33,18 @@
     UIAlertController *generalAlertController;
     BOOL needsLoginScreen;
     BOOL needsCreateUserScreen;
+    
     BOOL ifAnythingNull;
     
     //Password Verification With Server Variables
     
     BOOL userIsLoggedIn;
+    
+    NSString *changePasswordPassword;
+    NSString *changePasswordPasswordTest;
+    NSString *hashedChangedPassword;
+    NSString *changePasswordOldPassword;
+    
     NSString *hashedUsername;
     NSString *hashedPassword;
     
@@ -49,18 +56,30 @@
     NSArray *responseArray;
     NSDictionary *responseDictionary;
     
+    BOOL isFaculty;
+    
+    UIImage *userImage;
+    
+    NSString *postToPost;
+    int postImportance;
+    
+    
     //Post-Download Object Variables
     
     NSString *USEusername;
-    NSString *USEnum_following;
+    
+    int USEnum_following;
     NSArray *USEfollowees;
     NSArray *USEclasses;
     
-    UITextField *_usernameTextField;
-    UITextField *_passwordTextField;
-    
+    NSArray *USEKeys;
     
 }
+
+@property (weak, nonatomic) IBOutlet UITextField *usernameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
+
+
 @end
 
 

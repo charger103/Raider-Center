@@ -263,6 +263,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0CAADC301C7527A0000FFF77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CAADC2A1C7527A0000FFF77 /* Raider CenterBack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C45C180A1C1785380021D68D;
+			remoteInfo = "Raider CenterBack";
+		};
+		0CAADC321C7527A0000FFF77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CAADC2A1C7527A0000FFF77 /* Raider CenterBack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C45C18231C1785380021D68D;
+			remoteInfo = "Raider CenterBackTests";
+		};
+		0CAADC341C7527A0000FFF77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CAADC2A1C7527A0000FFF77 /* Raider CenterBack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C45C182E1C1785380021D68D;
+			remoteInfo = "Raider CenterBackUITests";
+		};
+		0CAADC3C1C7527A8000FFF77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CAADC361C7527A8000FFF77 /* Raider CenterBack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C45C180A1C1785380021D68D;
+			remoteInfo = "Raider CenterBack";
+		};
+		0CAADC3E1C7527A8000FFF77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CAADC361C7527A8000FFF77 /* Raider CenterBack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C45C18231C1785380021D68D;
+			remoteInfo = "Raider CenterBackTests";
+		};
+		0CAADC401C7527A8000FFF77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0CAADC361C7527A8000FFF77 /* Raider CenterBack.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C45C182E1C1785380021D68D;
+			remoteInfo = "Raider CenterBackUITests";
+		};
 		17AE47E675A6FDDC2AFF972A34ACB75B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -382,69 +424,6 @@
 			remoteGlobalIDString = F18AD88971877C11A72E4656A766D73A;
 			remoteInfo = SVProgressHUD;
 		};
-		C4E749371C75218700C34340 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C4E749311C75218700C34340 /* Raider CenterFront.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C45C180A1C1785380021D68D;
-			remoteInfo = "Raider CenterFront";
-		};
-		C4E749391C75218700C34340 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C4E749311C75218700C34340 /* Raider CenterFront.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C45C18231C1785380021D68D;
-			remoteInfo = "Raider CenterFrontTests";
-		};
-		C4E7493B1C75218700C34340 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C4E749311C75218700C34340 /* Raider CenterFront.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C45C182E1C1785380021D68D;
-			remoteInfo = "Raider CenterFrontUITests";
-		};
-		C4E749431C75219500C34340 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C4E7493D1C75219500C34340 /* Raider CenterFront.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C45C180A1C1785380021D68D;
-			remoteInfo = "Raider CenterFront";
-		};
-		C4E749451C75219500C34340 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C4E7493D1C75219500C34340 /* Raider CenterFront.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C45C18231C1785380021D68D;
-			remoteInfo = "Raider CenterFrontTests";
-		};
-		C4E749471C75219500C34340 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C4E7493D1C75219500C34340 /* Raider CenterFront.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C45C182E1C1785380021D68D;
-			remoteInfo = "Raider CenterFrontUITests";
-		};
-		C4E7494F1C75219B00C34340 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C4E749491C75219B00C34340 /* Raider CenterFront.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C45C180A1C1785380021D68D;
-			remoteInfo = "Raider CenterFront";
-		};
-		C4E749511C75219B00C34340 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C4E749491C75219B00C34340 /* Raider CenterFront.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C45C18231C1785380021D68D;
-			remoteInfo = "Raider CenterFrontTests";
-		};
-		C4E749531C75219B00C34340 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C4E749491C75219B00C34340 /* Raider CenterFront.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = C45C182E1C1785380021D68D;
-			remoteInfo = "Raider CenterFrontUITests";
-		};
 		D531E37BB3E2901DAB6B2E6A9290756D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -490,6 +469,8 @@
 		0AAA777A6AED6E65D0530208573E840C /* DTError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTError.m; path = DateTools/DTError.m; sourceTree = "<group>"; };
 		0AB0EC644873FE3EF1A65E130461BBB7 /* PlayButtonOverlayLargeTap@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "PlayButtonOverlayLargeTap@2x.png"; path = "Pod/Assets/PlayButtonOverlayLargeTap@2x.png"; sourceTree = "<group>"; };
 		0B119DD506F194E3DC54461410FA2226 /* YLImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YLImageView.m; path = YLGIFImage/YLImageView.m; sourceTree = "<group>"; };
+		0CAADC2A1C7527A0000FFF77 /* Raider CenterBack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Raider CenterBack.xcodeproj"; sourceTree = "<group>"; };
+		0CAADC361C7527A8000FFF77 /* Raider CenterBack.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Raider CenterBack.xcodeproj"; sourceTree = "<group>"; };
 		0D02063916E9DD39303CF35254D9AA2D /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DFCA95159E4A1125D633D82A546C4FB /* AQGridView+CellLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "AQGridView+CellLayout.h"; path = "Classes/AQGridView+CellLayout.h"; sourceTree = "<group>"; };
 		0E055EC90DDB7B376DB7392AC04BF059 /* MWPhotoBrowserPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWPhotoBrowserPrivate.h; path = Pod/Classes/MWPhotoBrowserPrivate.h; sourceTree = "<group>"; };
@@ -699,9 +680,6 @@
 		C437F66A4431B496486957D108560C6D /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
 		C43B5DF0C43FBE42BCE2C479D7FE26A6 /* DTTimePeriodGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTimePeriodGroup.m; path = DateTools/DTTimePeriodGroup.m; sourceTree = "<group>"; };
 		C462120C1711400C873C6C2367A9DB3C /* ImageSelectedSmallOn@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ImageSelectedSmallOn@3x.png"; path = "Pod/Assets/ImageSelectedSmallOn@3x.png"; sourceTree = "<group>"; };
-		C4E749311C75218700C34340 /* Raider CenterFront.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Raider CenterFront.xcodeproj"; path = "../Raider CenterFront.xcodeproj"; sourceTree = "<group>"; };
-		C4E7493D1C75219500C34340 /* Raider CenterFront.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Raider CenterFront.xcodeproj"; path = "../Raider CenterFront.xcodeproj"; sourceTree = "<group>"; };
-		C4E749491C75219B00C34340 /* Raider CenterFront.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Raider CenterFront.xcodeproj"; path = "../Raider CenterFront.xcodeproj"; sourceTree = "<group>"; };
 		C53B7DC5F8CE67F6A6DC611A5B11AE2F /* libMJExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMJExtension.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B1486DE7EB4162875774342BD83390 /* MWGridViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWGridViewController.h; path = Pod/Classes/MWGridViewController.h; sourceTree = "<group>"; };
 		CDC5E8A41199A925CE45133D9923B3C2 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
@@ -942,6 +920,26 @@
 			path = "../Target Support Files/MJRefresh";
 			sourceTree = "<group>";
 		};
+		0CAADC2B1C7527A0000FFF77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CAADC311C7527A0000FFF77 /* Raider CenterBack.app */,
+				0CAADC331C7527A0000FFF77 /* Raider CenterBack.xctest */,
+				0CAADC351C7527A0000FFF77 /* Raider CenterBack.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CAADC371C7527A8000FFF77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CAADC3D1C7527A8000FFF77 /* Raider CenterBack.app */,
+				0CAADC3F1C7527A8000FFF77 /* Raider CenterBack.xctest */,
+				0CAADC411C7527A8000FFF77 /* Raider CenterBack.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		16440A0EE8EFF2CB8263D4A437C896F7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -977,6 +975,7 @@
 		2339F39B1B97726C3028E6A24B36FA6A /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				0CAADC2A1C7527A0000FFF77 /* Raider CenterBack.xcodeproj */,
 				7569DB45A67AF7DD462ED48BFC686D27 /* Pods-Raider Center */,
 			);
 			name = "Targets Support Files";
@@ -1140,9 +1139,7 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				C4E749491C75219B00C34340 /* Raider CenterFront.xcodeproj */,
-				C4E7493D1C75219500C34340 /* Raider CenterFront.xcodeproj */,
-				C4E749311C75218700C34340 /* Raider CenterFront.xcodeproj */,
+				0CAADC361C7527A8000FFF77 /* Raider CenterBack.xcodeproj */,
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				785553737B06AFC3DA711DDEB7D56194 /* Frameworks */,
 				AEB366DB16B1FBBA95D0DE0D1DEC221B /* Pods */,
@@ -1441,36 +1438,6 @@
 				9444288CB30C304E1BC00F3C6278504E /* VideoOverlay@3x.png */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		C4E749321C75218700C34340 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C4E749381C75218700C34340 /* Raider CenterFront.app */,
-				C4E7493A1C75218700C34340 /* Raider CenterFront.xctest */,
-				C4E7493C1C75218700C34340 /* Raider CenterFront.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C4E7493E1C75219500C34340 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C4E749441C75219500C34340 /* Raider CenterFront.app */,
-				C4E749461C75219500C34340 /* Raider CenterFront.xctest */,
-				C4E749481C75219500C34340 /* Raider CenterFront.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		C4E7494A1C75219B00C34340 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C4E749501C75219B00C34340 /* Raider CenterFront.app */,
-				C4E749521C75219B00C34340 /* Raider CenterFront.xctest */,
-				C4E749541C75219B00C34340 /* Raider CenterFront.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		C789F06B49042419552FC4463CA2CAFF /* Support Files */ = {
@@ -2076,16 +2043,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = C4E7493E1C75219500C34340 /* Products */;
-					ProjectRef = C4E7493D1C75219500C34340 /* Raider CenterFront.xcodeproj */;
+					ProductGroup = 0CAADC2B1C7527A0000FFF77 /* Products */;
+					ProjectRef = 0CAADC2A1C7527A0000FFF77 /* Raider CenterBack.xcodeproj */;
 				},
 				{
-					ProductGroup = C4E7494A1C75219B00C34340 /* Products */;
-					ProjectRef = C4E749491C75219B00C34340 /* Raider CenterFront.xcodeproj */;
-				},
-				{
-					ProductGroup = C4E749321C75218700C34340 /* Products */;
-					ProjectRef = C4E749311C75218700C34340 /* Raider CenterFront.xcodeproj */;
+					ProductGroup = 0CAADC371C7527A8000FFF77 /* Products */;
+					ProjectRef = 0CAADC361C7527A8000FFF77 /* Raider CenterBack.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -2111,67 +2074,46 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		C4E749381C75218700C34340 /* Raider CenterFront.app */ = {
+		0CAADC311C7527A0000FFF77 /* Raider CenterBack.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
-			path = "Raider CenterFront.app";
-			remoteRef = C4E749371C75218700C34340 /* PBXContainerItemProxy */;
+			path = "Raider CenterBack.app";
+			remoteRef = 0CAADC301C7527A0000FFF77 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C4E7493A1C75218700C34340 /* Raider CenterFront.xctest */ = {
+		0CAADC331C7527A0000FFF77 /* Raider CenterBack.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "Raider CenterFront.xctest";
-			remoteRef = C4E749391C75218700C34340 /* PBXContainerItemProxy */;
+			path = "Raider CenterBack.xctest";
+			remoteRef = 0CAADC321C7527A0000FFF77 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C4E7493C1C75218700C34340 /* Raider CenterFront.xctest */ = {
+		0CAADC351C7527A0000FFF77 /* Raider CenterBack.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "Raider CenterFront.xctest";
-			remoteRef = C4E7493B1C75218700C34340 /* PBXContainerItemProxy */;
+			path = "Raider CenterBack.xctest";
+			remoteRef = 0CAADC341C7527A0000FFF77 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C4E749441C75219500C34340 /* Raider CenterFront.app */ = {
+		0CAADC3D1C7527A8000FFF77 /* Raider CenterBack.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
-			path = "Raider CenterFront.app";
-			remoteRef = C4E749431C75219500C34340 /* PBXContainerItemProxy */;
+			path = "Raider CenterBack.app";
+			remoteRef = 0CAADC3C1C7527A8000FFF77 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C4E749461C75219500C34340 /* Raider CenterFront.xctest */ = {
+		0CAADC3F1C7527A8000FFF77 /* Raider CenterBack.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "Raider CenterFront.xctest";
-			remoteRef = C4E749451C75219500C34340 /* PBXContainerItemProxy */;
+			path = "Raider CenterBack.xctest";
+			remoteRef = 0CAADC3E1C7527A8000FFF77 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C4E749481C75219500C34340 /* Raider CenterFront.xctest */ = {
+		0CAADC411C7527A8000FFF77 /* Raider CenterBack.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "Raider CenterFront.xctest";
-			remoteRef = C4E749471C75219500C34340 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C4E749501C75219B00C34340 /* Raider CenterFront.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = "Raider CenterFront.app";
-			remoteRef = C4E7494F1C75219B00C34340 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C4E749521C75219B00C34340 /* Raider CenterFront.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Raider CenterFront.xctest";
-			remoteRef = C4E749511C75219B00C34340 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		C4E749541C75219B00C34340 /* Raider CenterFront.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Raider CenterFront.xctest";
-			remoteRef = C4E749531C75219B00C34340 /* PBXContainerItemProxy */;
+			path = "Raider CenterBack.xctest";
+			remoteRef = 0CAADC401C7527A8000FFF77 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */

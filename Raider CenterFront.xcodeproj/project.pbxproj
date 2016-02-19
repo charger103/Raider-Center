@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C2F0D411C77BA08002DA56F /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F0D3F1C77BA08002DA56F /* NSString+MD5.m */; };
 		0C508D671C60081F0052738F /* Button Resources in Resources */ = {isa = PBXBuildFile; fileRef = 0C508D661C60081F0052738F /* Button Resources */; };
 		0CA0756A1C66D41200BA1CAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA075691C66D41200BA1CAB /* main.m */; };
 		0CA0756C1C66DFDD00BA1CAB /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA0756B1C66DFDD00BA1CAB /* Feed.storyboard */; };
@@ -44,6 +45,8 @@
 
 /* Begin PBXFileReference section */
 		0BEA570826632D44ED88A324 /* Pods-Raider Center.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Raider Center.release.xcconfig"; path = "Pods/Target Support Files/Pods-Raider Center/Pods-Raider Center.release.xcconfig"; sourceTree = "<group>"; };
+		0C2F0D3F1C77BA08002DA56F /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		0C2F0D401C77BA08002DA56F /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		0C508D661C60081F0052738F /* Button Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Button Resources"; sourceTree = "<group>"; };
 		0CA075691C66D41200BA1CAB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CA0756B1C66DFDD00BA1CAB /* Feed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
@@ -170,6 +173,8 @@
 				C45C18101C1785380021D68D /* AppDelegate.h */,
 				C45C18111C1785380021D68D /* AppDelegate.m */,
 				C45C18131C1785380021D68D /* ViewController.h */,
+				0C2F0D3F1C77BA08002DA56F /* NSString+MD5.m */,
+				0C2F0D401C77BA08002DA56F /* NSString+MD5.h */,
 				C45C18141C1785380021D68D /* ViewController.m */,
 				C45C18161C1785380021D68D /* Main.storyboard */,
 				0CC007341C7519BE006CA61C /* ViewController */,
@@ -398,6 +403,7 @@
 			files = (
 				0CC007411C751A43006CA61C /* UIView.m in Sources */,
 				C45C18151C1785380021D68D /* ViewController.m in Sources */,
+				0C2F0D411C77BA08002DA56F /* NSString+MD5.m in Sources */,
 				0CA0756A1C66D41200BA1CAB /* main.m in Sources */,
 				0CC007471C751A75006CA61C /* FeedModel.m in Sources */,
 				0CC007421C751A43006CA61C /* FeedPageViewController.m in Sources */,
@@ -554,7 +560,7 @@
 				INFOPLIST_FILE = "Raider Center/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "BaylorDEV2.Raider-Center";
+				PRODUCT_BUNDLE_IDENTIFIER = "BaylorDEVTeam.Raider-Center";
 				PRODUCT_NAME = "Raider CenterFront";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Raider Center/Raider Center-Bridging-Header.h";
@@ -577,7 +583,7 @@
 				INFOPLIST_FILE = "Raider Center/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "BaylorDEV2.Raider-Center";
+				PRODUCT_BUNDLE_IDENTIFIER = "BaylorDEVTeam.Raider-Center";
 				PRODUCT_NAME = "Raider CenterFront";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Raider Center/Raider Center-Bridging-Header.h";
