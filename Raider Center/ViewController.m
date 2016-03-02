@@ -489,6 +489,4 @@ NSLog(@"%@", serverResponse);
                     //Start UI (other than login screen):
                     
                 }
-                
-                
-                @end
+@end
