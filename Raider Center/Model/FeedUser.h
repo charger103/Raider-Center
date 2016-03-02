@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface FeedUser : NSObject
-@property (nonatomic, strong) NSString *avatarUrl;
+@property (nonatomic, strong) NSString *imageUrl;
 @property (nonatomic, strong) NSString *username;
 @property (nonatomic, strong) NSString *userid;
 @end

@@ -11,6 +11,8 @@
 		0C508D671C60081F0052738F /* Button Resources in Resources */ = {isa = PBXBuildFile; fileRef = 0C508D661C60081F0052738F /* Button Resources */; };
 		0CA0756A1C66D41200BA1CAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA075691C66D41200BA1CAB /* main.m */; };
 		0CA0756C1C66DFDD00BA1CAB /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA0756B1C66DFDD00BA1CAB /* Feed.storyboard */; };
+		0CA09CBF1C878C75006CF569 /* FeedDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA09CBE1C878C75006CF569 /* FeedDetailTableViewController.m */; };
+		0CA09CC21C878E39006CF569 /* FeedDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA09CC11C878E39006CF569 /* FeedDetailTableViewCell.m */; };
 		0CC007331C751323006CA61C /* Feed Table Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC007321C751323006CA61C /* Feed Table Cell.xib */; };
 		0CC007411C751A43006CA61C /* UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC0073E1C751A43006CA61C /* UIView.m */; };
 		0CC007421C751A43006CA61C /* FeedPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC007401C751A43006CA61C /* FeedPageViewController.m */; };
@@ -50,6 +52,10 @@
 		0C508D661C60081F0052738F /* Button Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Button Resources"; sourceTree = "<group>"; };
 		0CA075691C66D41200BA1CAB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CA0756B1C66DFDD00BA1CAB /* Feed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
+		0CA09CBD1C878C62006CF569 /* FeedDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedDetailTableViewController.h; sourceTree = "<group>"; };
+		0CA09CBE1C878C75006CF569 /* FeedDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedDetailTableViewController.m; sourceTree = "<group>"; };
+		0CA09CC11C878E39006CF569 /* FeedDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedDetailTableViewCell.m; sourceTree = "<group>"; };
+		0CA09CC31C878E4A006CF569 /* FeedDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedDetailTableViewCell.h; sourceTree = "<group>"; };
 		0CC007321C751323006CA61C /* Feed Table Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Feed Table Cell.xib"; path = "../Feed Table Cell.xib"; sourceTree = "<group>"; };
 		0CC0073D1C751A43006CA61C /* UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIView.h; path = "ViewController 16-13-04-500/FeedCell/UIView.h"; sourceTree = "<group>"; };
 		0CC0073E1C751A43006CA61C /* UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIView.m; path = "ViewController 16-13-04-500/FeedCell/UIView.m"; sourceTree = "<group>"; };
@@ -104,13 +110,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CA09CC01C878E1A006CF569 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0CA09CC11C878E39006CF569 /* FeedDetailTableViewCell.m */,
+				0CA09CC31C878E4A006CF569 /* FeedDetailTableViewCell.h */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 		0CC007341C7519BE006CA61C /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				0CA09CC01C878E1A006CF569 /* Cell */,
 				0CC0073D1C751A43006CA61C /* UIView.h */,
 				0CC0073E1C751A43006CA61C /* UIView.m */,
 				0CC0073F1C751A43006CA61C /* FeedPageViewController.h */,
 				0CC007401C751A43006CA61C /* FeedPageViewController.m */,
+				0CA09CBD1C878C62006CF569 /* FeedDetailTableViewController.h */,
+				0CA09CBE1C878C75006CF569 /* FeedDetailTableViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -403,6 +421,8 @@
 			files = (
 				0CC007411C751A43006CA61C /* UIView.m in Sources */,
 				C45C18151C1785380021D68D /* ViewController.m in Sources */,
+				0CA09CC21C878E39006CF569 /* FeedDetailTableViewCell.m in Sources */,
+				0CA09CBF1C878C75006CF569 /* FeedDetailTableViewController.m in Sources */,
 				0C2F0D411C77BA08002DA56F /* NSString+MD5.m in Sources */,
 				0CA0756A1C66D41200BA1CAB /* main.m in Sources */,
 				0CC007471C751A75006CA61C /* FeedModel.m in Sources */,
