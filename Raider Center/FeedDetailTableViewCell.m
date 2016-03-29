@@ -10,9 +10,9 @@
 #import "FeedDetailTableViewCell.h"
 #import <DateTools.h>
 
-@interface FeedDetailTableViewCell : UITableViewCell
 
-@end
+
+
 @implementation FeedDetailTableViewCell
 
 -(void)awakefromNib {

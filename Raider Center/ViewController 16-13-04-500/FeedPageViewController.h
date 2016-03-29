@@ -24,7 +24,9 @@
     UIImage *ContentBox;
     UILabel *TeacherName;
     UITableViewCell *tableView;
-  
+    
+    
+
     
     
     
@@ -48,3 +50,5 @@
 
 }
 
+@property (nonatomic, assign) NSInteger num;
+@end
