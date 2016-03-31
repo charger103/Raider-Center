@@ -14,12 +14,12 @@
 #import "CustomFeedCell.h"
 
 
-@interface FeedPage () {
+@interface CustomFeedTableViewController () {
     
 }
 @end
 
-@implementation FeedPage
+@implementation CustomFeedTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

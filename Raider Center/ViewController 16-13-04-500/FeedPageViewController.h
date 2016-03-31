@@ -9,7 +9,7 @@
 #import "AQGridViewController.h"
 
 /////FeedPage///////
-@interface FeedPage : UITableViewController {
+@interface CustomFeedTableViewController : UITableViewController {
     
     
     
