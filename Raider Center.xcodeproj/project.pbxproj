@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0C2F0D411C77BA08002DA56F /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2F0D3F1C77BA08002DA56F /* NSString+MD5.m */; };
 		0C508D671C60081F0052738F /* Button Resources in Resources */ = {isa = PBXBuildFile; fileRef = 0C508D661C60081F0052738F /* Button Resources */; };
+		0C908F8A1CACEE9900E7EDFE /* CustomFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C908F881CACEE9900E7EDFE /* CustomFeedCell.m */; };
+		0C908F8B1CACEE9900E7EDFE /* CustomFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C908F891CACEE9900E7EDFE /* CustomFeedCell.xib */; };
 		0CA0756A1C66D41200BA1CAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA075691C66D41200BA1CAB /* main.m */; };
 		0CA0756C1C66DFDD00BA1CAB /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA0756B1C66DFDD00BA1CAB /* Feed.storyboard */; };
 		0CA09CBF1C878C75006CF569 /* FeedDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA09CBE1C878C75006CF569 /* FeedDetailTableViewController.m */; };
@@ -50,6 +52,9 @@
 		0C2F0D3F1C77BA08002DA56F /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		0C2F0D401C77BA08002DA56F /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		0C508D661C60081F0052738F /* Button Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Button Resources"; sourceTree = "<group>"; };
+		0C908F871CACEE9900E7EDFE /* CustomFeedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomFeedCell.h; path = ../CustomFeedCell.h; sourceTree = "<group>"; };
+		0C908F881CACEE9900E7EDFE /* CustomFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomFeedCell.m; path = ../CustomFeedCell.m; sourceTree = "<group>"; };
+		0C908F891CACEE9900E7EDFE /* CustomFeedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomFeedCell.xib; path = ../CustomFeedCell.xib; sourceTree = "<group>"; };
 		0CA075691C66D41200BA1CAB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CA0756B1C66DFDD00BA1CAB /* Feed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
 		0CA09CBD1C878C62006CF569 /* FeedDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedDetailTableViewController.h; sourceTree = "<group>"; };
@@ -113,6 +118,9 @@
 		0CA09CC01C878E1A006CF569 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				0C908F871CACEE9900E7EDFE /* CustomFeedCell.h */,
+				0C908F881CACEE9900E7EDFE /* CustomFeedCell.m */,
+				0C908F891CACEE9900E7EDFE /* CustomFeedCell.xib */,
 				0CA09CC11C878E39006CF569 /* FeedDetailTableViewCell.m */,
 				0CA09CC31C878E4A006CF569 /* FeedDetailTableViewCell.h */,
 			);
@@ -345,6 +353,7 @@
 				0CA0756C1C66DFDD00BA1CAB /* Feed.storyboard in Resources */,
 				C45C181D1C1785380021D68D /* LaunchScreen.storyboard in Resources */,
 				C45C181A1C1785380021D68D /* Assets.xcassets in Resources */,
+				0C908F8B1CACEE9900E7EDFE /* CustomFeedCell.xib in Resources */,
 				C45C18181C1785380021D68D /* Main.storyboard in Resources */,
 				0C508D671C60081F0052738F /* Button Resources in Resources */,
 			);
@@ -422,6 +431,7 @@
 				0CC007411C751A43006CA61C /* UIView.m in Sources */,
 				C45C18151C1785380021D68D /* ViewController.m in Sources */,
 				0CA09CC21C878E39006CF569 /* FeedDetailTableViewCell.m in Sources */,
+				0C908F8A1CACEE9900E7EDFE /* CustomFeedCell.m in Sources */,
 				0CA09CBF1C878C75006CF569 /* FeedDetailTableViewController.m in Sources */,
 				0C2F0D411C77BA08002DA56F /* NSString+MD5.m in Sources */,
 				0CA0756A1C66D41200BA1CAB /* main.m in Sources */,

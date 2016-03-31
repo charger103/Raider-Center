@@ -11,7 +11,7 @@
 #import "FeedUser.h"
 #import <MJRefresh/MJRefresh.h>
 #import "FeedPageViewController.h"
-
+#import "CustomFeedCell.h"
 
 
 @interface FeedPage () {
@@ -24,7 +24,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([CustomFeedCell class]) bundle:nil] forCellReuseIdentifier:NSStringFromClass(NSStringFromClass([CustomFeedCell class]))];
+    
 /*- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
     {
         static NSString *simpleTableIdentifier = @"FeedCell";
@@ -44,7 +45,7 @@
     
 }*/
 //PULL DOWN TO REFRESH VIEW
--(void)setupRefresh {
+/*(-(void)setupRefresh {
     static BOOL firstStart = YES;
     __weak UITableViewController *weakSelf = self;
     self.tableView.header = [MJRefreshHeader headerWithRefreshingBlock:^{
@@ -63,13 +64,13 @@
     
     [self.tableView.header beginRefreshing];
 }
-
+*/
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     
 }
 
--((NSInteger)numberOfSectrionsInFeedTable:(UITableView *) tableView {
+-((NSInteger)numberOfSectionsInFeedTable:(UITableView *) tableView {
    return self.num;
 }
 
@@ -77,20 +78,19 @@
     return 1;
 }
 
--(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndex:(NSIndexPath *)indexPath {
+/*-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndex:(NSIndexPath *)indexPath {
     return 44.0;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     return 10.0;
-}
+}*/
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellsAtIndex:(NSIndexPath *)indexPath {
-    UITableViewCell *feed = [tableView dequeueReusableCellWithIdentifier:@"feed" forIndexPath:indexPath];
-    if(!feed) {
-        feed = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"feed"];
-    
-}
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    CustomFeedCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([CustomFeedCell Class]) forIndexPath:indexPath];
+    return cell
+  }
+
     //SHOW FEED
     //INSERT YOUR CODE ABOUT RETRIVE FEED FROM SERVER AND PUT THE METHOD INTO THE NEXT LINE
     feed.textLabel.text = [NSString stringWithFormat:@"TEST",(long)indexPath.section];
@@ -98,7 +98,7 @@
     return feed;
 }
   
-  - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+/*  - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
       if(indexPath.section == 0) {
           FeedCell *cell = (FeedCell *)[tableView dequeueReuseableCellWithIdentifier:@"FeedCell" forIndexPath:indexPath];
           if(!cell) {
@@ -114,14 +114,19 @@
 }
 
 
-- (UITableViewCell *)
+- (UITableViewCell *)*/
+  -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+      UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"FeedCell"];
+      if(cell == nil) {
+          cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FeedCell"];
+      };
 
 
 
 
-- (void)CheckBeforeCatch {
+/*- (void)CheckBeforeCatch {
     if (userIsLoggedIn != nil){
         
     }
-}
+}*/
 
