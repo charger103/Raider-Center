@@ -41,7 +41,7 @@
 //Start the Program
 - (void)preUISetUp {
     
-    NSLog(@"Pre-UI Setup");
+   /* NSLog(@"Pre-UI Setup");
     
     
     NSLog([userInformation objectForKey:@"username"], [userInformation objectForKey:@"password"]);
@@ -168,7 +168,8 @@ NSLog(@"%@", serverResponse);
 */
             
             //Example Setup
-            
+        // In order to test the UI I put all those errors into this
+            /*
             if (([usernameFromInput isEqualToString:@"user1"] || [usernameFromInput isEqualToString:@"user2"] || [usernameFromInput isEqualToString:@"user3"] || [usernameFromInput isEqualToString:@"user4"] || [usernameFromInput isEqualToString:@"user5"] || [usernameFromInput isEqualToString:@"user6"]|| [usernameFromInput isEqualToString:@"user7"]|| [usernameFromInput isEqualToString:@"user8"] || [usernameFromInput isEqualToString:@"user9"] || [usernameFromInput isEqualToString:@"user10"]) && ([passwordFromInput isEqualToString:@"pass1"] || [passwordFromInput isEqualToString:@"pass2"] || [passwordFromInput isEqualToString:@"pass3"] || [passwordFromInput isEqualToString:@"pass4"] || [passwordFromInput isEqualToString:@"pass5"] || [passwordFromInput isEqualToString:@"pass6"] || [passwordFromInput isEqualToString:@"pass7"] || [passwordFromInput isEqualToString:@"pass8"] || [passwordFromInput isEqualToString:@"pass9"] || [passwordFromInput isEqualToString:@"pass10"])) {
    
    [self performSelector:@selector(userLoggedIn)];
@@ -455,10 +456,10 @@ NSLog(@"%@", serverResponse);
                 }
                 
                 
-            }
+            }*/
             
             //Set UI Variables and call the UI:
-            - (void)passInfoToUI {
+            /*- (void)passInfoToUI {
                 
                 USEusername = responseArray[0];
                 USEnum_following = [responseArray[1] integerValue];
@@ -482,11 +483,14 @@ NSLog(@"%@", serverResponse);
                     NSLog(@"Told UI to go to make user screen!");
                     
                 }
-                
+                */
                 //Start the UI:
                 - (void)startUI {
                     
                     //Start UI (other than login screen):
                     
                 }
+             
+  
 @end
+

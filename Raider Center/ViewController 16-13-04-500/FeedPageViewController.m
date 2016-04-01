@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "FeedModel.h"
 #import "FeedUser.h"
 #import <MJRefresh/MJRefresh.h>
 #import "FeedPageViewController.h"
@@ -119,7 +118,7 @@
       UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"FeedCell"];
       if(cell == nil) {
           cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FeedCell"];
-      };
+      }
 
 
 

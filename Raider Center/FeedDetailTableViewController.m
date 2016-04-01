@@ -7,17 +7,32 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface FeedDetailTableViewController : UIViewController
+#import "CustomDetailTableViewCell.h"
+#import "FeedDetailTableViewController.h"
+@interface CustomFeedDetailTableViewController : UITableViewController
 @end
 
-@implementation FeedDetailTableViewController
-
+@implementation CustomFeedDetailTableViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.tableView.rowHeight = UITableViewAutomaticDimension;
-    self.tableView.estimatedRowHeight = 44;
-}
+    [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([CustomDetailTableViewCell class]) bundle:nil] forCellReuseIdentifier:NSStringFromClass(NSStringFromClass([CustomDetailTableViewCell class]))];
 
+
+    
+
+    
+    
+    
+    
+/*-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"FeedDetailCell"];
+        if(cell == nil) {
+            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FeedDetailCell"];
+        };*/
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPAth *)indexPath {
+        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CustomDetailTableViewCell"];
+        if(cell == nil){
+            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CUstomDetailTableViewCell"];
+        }
+    };
 @end

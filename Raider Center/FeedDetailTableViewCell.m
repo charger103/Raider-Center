@@ -24,13 +24,12 @@
     
 }
 
--(void)setTopicModel:(TopicModel *)topicModel {
+/*-(void)setTopicModel:(TopicModel *)topicModel {
     __topicModel = topicModel;
-    /*[self.feederImage sd_setImageWithURL:[NSURL URLWithString:__topicModel.topicCreater.imageUrl] placeholderImage:[UIImage imageNamed:@"avator"]];*/
+    [self.feederImage sd_setImageWithURL:[NSURL URLWithString:__topicModel.topicCreater.imageUrl] placeholderImage:[UIImage imageNamed:@"avator"]];
     self.feederName.text = __topicModel.topicCreater.username;
     self.feedTime.text = [__topicModel.topicCreateTime formattedDateWithFormat:@"MM-dd HH:mm"];
     self.feedDetail.text = __topicModel.topicContent;
     [self.contentView setNeedsUpdateConstraints];
-}
-
+}*/
 @end

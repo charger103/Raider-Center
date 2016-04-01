@@ -12,14 +12,11 @@
 		0C908F8A1CACEE9900E7EDFE /* CustomFeedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C908F881CACEE9900E7EDFE /* CustomFeedCell.m */; };
 		0C908F8B1CACEE9900E7EDFE /* CustomFeedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C908F891CACEE9900E7EDFE /* CustomFeedCell.xib */; };
 		0CA0756A1C66D41200BA1CAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA075691C66D41200BA1CAB /* main.m */; };
-		0CA0756C1C66DFDD00BA1CAB /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA0756B1C66DFDD00BA1CAB /* Feed.storyboard */; };
 		0CA09CBF1C878C75006CF569 /* FeedDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA09CBE1C878C75006CF569 /* FeedDetailTableViewController.m */; };
-		0CA09CC21C878E39006CF569 /* FeedDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CA09CC11C878E39006CF569 /* FeedDetailTableViewCell.m */; };
-		0CC007331C751323006CA61C /* Feed Table Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CC007321C751323006CA61C /* Feed Table Cell.xib */; };
 		0CC007411C751A43006CA61C /* UIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC0073E1C751A43006CA61C /* UIView.m */; };
 		0CC007421C751A43006CA61C /* FeedPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC007401C751A43006CA61C /* FeedPageViewController.m */; };
-		0CC007471C751A75006CA61C /* FeedModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC007441C751A75006CA61C /* FeedModel.m */; };
-		0CC007481C751A75006CA61C /* FeedUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC007461C751A75006CA61C /* FeedUser.m */; };
+		0CD6D2521CAE2B9600A4B5C3 /* CustomDetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6D2501CAE2B9600A4B5C3 /* CustomDetailTableViewCell.m */; };
+		0CD6D2531CAE2B9600A4B5C3 /* CustomDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6D2511CAE2B9600A4B5C3 /* CustomDetailTableViewCell.xib */; };
 		C45C18121C1785380021D68D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C18111C1785380021D68D /* AppDelegate.m */; };
 		C45C18151C1785380021D68D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C45C18141C1785380021D68D /* ViewController.m */; };
 		C45C18181C1785380021D68D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45C18161C1785380021D68D /* Main.storyboard */; };
@@ -56,20 +53,15 @@
 		0C908F881CACEE9900E7EDFE /* CustomFeedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomFeedCell.m; path = ../CustomFeedCell.m; sourceTree = "<group>"; };
 		0C908F891CACEE9900E7EDFE /* CustomFeedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomFeedCell.xib; path = ../CustomFeedCell.xib; sourceTree = "<group>"; };
 		0CA075691C66D41200BA1CAB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0CA0756B1C66DFDD00BA1CAB /* Feed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
 		0CA09CBD1C878C62006CF569 /* FeedDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedDetailTableViewController.h; sourceTree = "<group>"; };
 		0CA09CBE1C878C75006CF569 /* FeedDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedDetailTableViewController.m; sourceTree = "<group>"; };
-		0CA09CC11C878E39006CF569 /* FeedDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedDetailTableViewCell.m; sourceTree = "<group>"; };
-		0CA09CC31C878E4A006CF569 /* FeedDetailTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedDetailTableViewCell.h; sourceTree = "<group>"; };
-		0CC007321C751323006CA61C /* Feed Table Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = "Feed Table Cell.xib"; path = "../Feed Table Cell.xib"; sourceTree = "<group>"; };
 		0CC0073D1C751A43006CA61C /* UIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIView.h; path = "ViewController 16-13-04-500/FeedCell/UIView.h"; sourceTree = "<group>"; };
 		0CC0073E1C751A43006CA61C /* UIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIView.m; path = "ViewController 16-13-04-500/FeedCell/UIView.m"; sourceTree = "<group>"; };
 		0CC0073F1C751A43006CA61C /* FeedPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedPageViewController.h; path = "ViewController 16-13-04-500/FeedPageViewController.h"; sourceTree = "<group>"; };
 		0CC007401C751A43006CA61C /* FeedPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedPageViewController.m; path = "ViewController 16-13-04-500/FeedPageViewController.m"; sourceTree = "<group>"; };
-		0CC007431C751A75006CA61C /* FeedModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedModel.h; path = Model/FeedModel.h; sourceTree = "<group>"; };
-		0CC007441C751A75006CA61C /* FeedModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedModel.m; path = Model/FeedModel.m; sourceTree = "<group>"; };
-		0CC007451C751A75006CA61C /* FeedUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeedUser.h; path = Model/FeedUser.h; sourceTree = "<group>"; };
-		0CC007461C751A75006CA61C /* FeedUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FeedUser.m; path = Model/FeedUser.m; sourceTree = "<group>"; };
+		0CD6D24F1CAE2B9600A4B5C3 /* CustomDetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomDetailTableViewCell.h; path = ../CustomDetailTableViewCell.h; sourceTree = "<group>"; };
+		0CD6D2501CAE2B9600A4B5C3 /* CustomDetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomDetailTableViewCell.m; path = ../CustomDetailTableViewCell.m; sourceTree = "<group>"; };
+		0CD6D2511CAE2B9600A4B5C3 /* CustomDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomDetailTableViewCell.xib; path = ../CustomDetailTableViewCell.xib; sourceTree = "<group>"; };
 		90D2CEE813F268F50BD2C57E /* Pods-Raider Center.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Raider Center.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Raider Center/Pods-Raider Center.debug.xcconfig"; sourceTree = "<group>"; };
 		94C8BAA8F84D4A0539AE5E7A /* libPods-Raider Center.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Raider Center.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45C180A1C1785380021D68D /* Raider Center.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Raider Center.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -118,11 +110,12 @@
 		0CA09CC01C878E1A006CF569 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				0CD6D24F1CAE2B9600A4B5C3 /* CustomDetailTableViewCell.h */,
+				0CD6D2501CAE2B9600A4B5C3 /* CustomDetailTableViewCell.m */,
+				0CD6D2511CAE2B9600A4B5C3 /* CustomDetailTableViewCell.xib */,
 				0C908F871CACEE9900E7EDFE /* CustomFeedCell.h */,
 				0C908F881CACEE9900E7EDFE /* CustomFeedCell.m */,
 				0C908F891CACEE9900E7EDFE /* CustomFeedCell.xib */,
-				0CA09CC11C878E39006CF569 /* FeedDetailTableViewCell.m */,
-				0CA09CC31C878E4A006CF569 /* FeedDetailTableViewCell.h */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -139,17 +132,6 @@
 				0CA09CBE1C878C75006CF569 /* FeedDetailTableViewController.m */,
 			);
 			name = ViewController;
-			sourceTree = "<group>";
-		};
-		0CC0073B1C751A1F006CA61C /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				0CC007431C751A75006CA61C /* FeedModel.h */,
-				0CC007441C751A75006CA61C /* FeedModel.m */,
-				0CC007451C751A75006CA61C /* FeedUser.h */,
-				0CC007461C751A75006CA61C /* FeedUser.m */,
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 		0E8C3BC9574A89112FE038DF /* Frameworks */ = {
@@ -194,8 +176,6 @@
 		C45C180C1C1785380021D68D /* Raider Center */ = {
 			isa = PBXGroup;
 			children = (
-				0CC007321C751323006CA61C /* Feed Table Cell.xib */,
-				0CA0756B1C66DFDD00BA1CAB /* Feed.storyboard */,
 				C45C18101C1785380021D68D /* AppDelegate.h */,
 				C45C18111C1785380021D68D /* AppDelegate.m */,
 				C45C18131C1785380021D68D /* ViewController.h */,
@@ -204,7 +184,6 @@
 				C45C18141C1785380021D68D /* ViewController.m */,
 				C45C18161C1785380021D68D /* Main.storyboard */,
 				0CC007341C7519BE006CA61C /* ViewController */,
-				0CC0073B1C751A1F006CA61C /* Model */,
 				0C508D661C60081F0052738F /* Button Resources */,
 				C45C18191C1785380021D68D /* Assets.xcassets */,
 				C45C181B1C1785380021D68D /* LaunchScreen.storyboard */,
@@ -349,13 +328,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CC007331C751323006CA61C /* Feed Table Cell.xib in Resources */,
-				0CA0756C1C66DFDD00BA1CAB /* Feed.storyboard in Resources */,
 				C45C181D1C1785380021D68D /* LaunchScreen.storyboard in Resources */,
 				C45C181A1C1785380021D68D /* Assets.xcassets in Resources */,
 				0C908F8B1CACEE9900E7EDFE /* CustomFeedCell.xib in Resources */,
 				C45C18181C1785380021D68D /* Main.storyboard in Resources */,
 				0C508D671C60081F0052738F /* Button Resources in Resources */,
+				0CD6D2531CAE2B9600A4B5C3 /* CustomDetailTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,15 +408,13 @@
 			files = (
 				0CC007411C751A43006CA61C /* UIView.m in Sources */,
 				C45C18151C1785380021D68D /* ViewController.m in Sources */,
-				0CA09CC21C878E39006CF569 /* FeedDetailTableViewCell.m in Sources */,
 				0C908F8A1CACEE9900E7EDFE /* CustomFeedCell.m in Sources */,
 				0CA09CBF1C878C75006CF569 /* FeedDetailTableViewController.m in Sources */,
 				0C2F0D411C77BA08002DA56F /* NSString+MD5.m in Sources */,
 				0CA0756A1C66D41200BA1CAB /* main.m in Sources */,
-				0CC007471C751A75006CA61C /* FeedModel.m in Sources */,
 				0CC007421C751A43006CA61C /* FeedPageViewController.m in Sources */,
-				0CC007481C751A75006CA61C /* FeedUser.m in Sources */,
 				C45C18121C1785380021D68D /* AppDelegate.m in Sources */,
+				0CD6D2521CAE2B9600A4B5C3 /* CustomDetailTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

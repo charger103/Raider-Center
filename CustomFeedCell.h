@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustomFeedCell : UITableViewCell
-
+@interface CustomFeedCell : UITableViewCell{
+    UIImageView *Avator;
+    UILabel *Feeder;
+    UILabel *Feed;
+}
 @end
