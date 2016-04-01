@@ -11,40 +11,34 @@
 #import <MJRefresh/MJRefresh.h>
 #import "FeedPageViewController.h"
 #import "CustomFeedCell.h"
-
+#import "SWRevealViewController.h"
 
 @interface CustomFeedTableViewController () {
     
 }
 @end
 
-@implementation CustomFeedTableViewController
+@implementation CustomFeedTableViewController{
+   
+}
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    _barButton.target = self.revealViewController;
+    _barButton.action = @selector(revealToggle:);
+    
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
     [self.tableView registerNib:[UINib nibWithNibName:NSStringFromClass([CustomFeedCell class]) bundle:nil] forCellReuseIdentifier:NSStringFromClass(NSStringFromClass([CustomFeedCell class]))];
     
-/*- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-    {
-        static NSString *simpleTableIdentifier = @"FeedCell";
-        
-        Feedcell *cell = (Feedcell *)[tableView dequeueReusableCellWithIdentifier:FeedCellIdentifier];
-        if (cell == nil)
-        {
-            NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"FeedCell"" owner:self options:nil];
-            cell = [nib objectAtIndex:0];
-        }
-        
-        
-        return cell;
-    }
+
     //Nick work on the auto check before login
     [self setupRefresh];
     
-}*/
+}
 //PULL DOWN TO REFRESH VIEW
-/*(-(void)setupRefresh {
+-(void)setupRefresh {
     static BOOL firstStart = YES;
     __weak UITableViewController *weakSelf = self;
     self.tableView.header = [MJRefreshHeader headerWithRefreshingBlock:^{
@@ -63,13 +57,13 @@
     
     [self.tableView.header beginRefreshing];
 }
-*/
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     
 }
 
--((NSInteger)numberOfSectionsInFeedTable:(UITableView *) tableView {
+-(NSInteger)numberOfSectionsInFeedTable:(UITableView *) tableView {
    return self.num;
 }
 
@@ -85,18 +79,7 @@
     return 10.0;
 }*/
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    CustomFeedCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([CustomFeedCell Class]) forIndexPath:indexPath];
-    return cell
-  }
 
-    //SHOW FEED
-    //INSERT YOUR CODE ABOUT RETRIVE FEED FROM SERVER AND PUT THE METHOD INTO THE NEXT LINE
-    feed.textLabel.text = [NSString stringWithFormat:@"TEST",(long)indexPath.section];
-    feed.backgroundColor = [UIColor WhiteColor];
-    return feed;
-}
-  
 /*  - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
       if(indexPath.section == 0) {
           FeedCell *cell = (FeedCell *)[tableView dequeueReuseableCellWithIdentifier:@"FeedCell" forIndexPath:indexPath];
@@ -114,11 +97,13 @@
 
 
 - (UITableViewCell *)*/
-  -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-      UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"FeedCell"];
-      if(cell == nil) {
-          cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FeedCell"];
-      }
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+      CustomFeedCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([CustomFeedCell class])];
+      /*if(cell == nil) {
+          cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FeedCell"];*/
+    //configure the cell
+    return cell;
+};
 
 
 
@@ -129,3 +114,4 @@
     }
 }*/
 
+@end

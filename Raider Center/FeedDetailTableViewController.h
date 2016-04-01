@@ -7,6 +7,5 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface CustomFeedDetailTableViewController : UITableViewController
+@interface CustomFeedDetailTableViewController : UITableViewController
 @end

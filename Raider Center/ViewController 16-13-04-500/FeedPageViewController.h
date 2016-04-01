@@ -10,7 +10,7 @@
 
 /////FeedPage///////
 @interface CustomFeedTableViewController : UITableViewController {
-    
+
     
     
     ///////UIVARIABLE/////
@@ -49,6 +49,6 @@
    
 
 }
-
+@property (weak,nonatomic) IBOutlet UIBarButtonItem *barButton;
 @property (nonatomic, assign) NSInteger num;
 @end

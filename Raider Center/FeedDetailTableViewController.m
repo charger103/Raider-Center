@@ -10,6 +10,7 @@
 #import "CustomDetailTableViewCell.h"
 #import "FeedDetailTableViewController.h"
 @interface CustomFeedDetailTableViewController : UITableViewController
+
 @end
 
 @implementation CustomFeedDetailTableViewController
@@ -29,8 +30,8 @@
         if(cell == nil) {
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FeedDetailCell"];
         };*/
--(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPAth *)indexPath {
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CustomDetailTableViewCell"];
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([CustomDetailTableViewCell class])];
         if(cell == nil){
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CUstomDetailTableViewCell"];
         }
