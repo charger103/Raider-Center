@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "FeedUser.h"
 #import <MJRefresh/MJRefresh.h>
 #import "FeedPageViewController.h"
 #import "CustomFeedCell.h"

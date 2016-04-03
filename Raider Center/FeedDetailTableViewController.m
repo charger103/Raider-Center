@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "CustomDetailTableViewCell.h"
 #import "FeedDetailTableViewController.h"
-@interface CustomFeedDetailTableViewController : UITableViewController
+@interface CustomFeedDetailTableViewController (){}
 
 @end
 
