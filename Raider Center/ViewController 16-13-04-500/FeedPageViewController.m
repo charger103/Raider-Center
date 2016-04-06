@@ -62,6 +62,8 @@
     
 }
 
+-(void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
+{};
 -(NSInteger)numberOfSectionsInFeedTable:(UITableView *) tableView {
    return self.num;
 }

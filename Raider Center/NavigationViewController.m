@@ -61,7 +61,7 @@
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"CustomSlideBarCell"];
 #warning plug in the user info
         return cell;
-    }
+    };
 
 /*
 // Override to support conditional editing of the table view.
@@ -106,7 +106,7 @@
     // Pass the selected object to the new view controller.
 }
 */
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
     {
         
         

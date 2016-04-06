@@ -125,7 +125,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="0Gi-lt-Cc8" kind="relationship" relationship="rootViewController" id="AgA-uQ-Q6R"/>
+                        <segue destination="QBp-48-dE0" kind="custom" customClass="SWRevealViewControllerSeguePushController" id="tJl-nB-4C0"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fA2-MS-cx7" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -186,6 +186,9 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="zMZ-cX-bXi"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <segue destination="mdS-bP-o4f" kind="custom" customClass="SWRevealViewControllerSegue" id="Qt2-yt-7PW"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fYP-UL-yhm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -200,10 +203,6 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <segue destination="mdS-bP-o4f" kind="custom" id="7Bv-Hw-esZ"/>
-                        <segue destination="Uwn-um-Mry" kind="custom" id="IFx-3K-LSi"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yr7-fA-DR4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -277,7 +276,7 @@
                         </connections>
                     </tableView>
                     <connections>
-                        <segue destination="0Gi-lt-Cc8" kind="custom" id="wuJ-WR-hsM"/>
+                        <segue destination="QBp-48-dE0" kind="custom" customClass="SWRevealViewControllerSegueSetController" id="8DL-iB-0cq"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T67-6v-Zza" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -286,6 +285,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="wuJ-WR-hsM"/>
+        <segue reference="8DL-iB-0cq"/>
     </inferredMetricsTieBreakers>
 </document>
