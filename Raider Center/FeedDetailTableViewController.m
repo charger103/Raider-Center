@@ -9,10 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "CustomDetailTableViewCell.h"
 #import "FeedDetailTableViewController.h"
-@interface CustomFeedDetailTableViewController (){}
-
+@interface CustomFeedDetailTableViewController : UITableViewController
 @end
-
 @implementation CustomFeedDetailTableViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
