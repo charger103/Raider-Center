@@ -36,10 +36,11 @@
     [super didReceiveMemoryWarning];
 }
 ////////////////////////////////////////////////////
+@end
 //End Default
 
 //Start the Program
-- (void)preUISetUp {
+//- (void)preUISetUp {
     
    /* NSLog(@"Pre-UI Setup");
     
@@ -485,12 +486,12 @@ NSLog(@"%@", serverResponse);
                 }
                 */
                 //Start the UI:
-                - (void)startUI {
+                /*- (void)startUI {
                     
                     //Start UI (other than login screen):
                     
                 }
              
-  
-@end
+  */
+
 
