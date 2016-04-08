@@ -6,10 +6,9 @@
 //  Copyright © 2016 BaylorDEV. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "CustomDetailTableViewCell.h"
 #import "FeedDetailTableViewController.h"
-/*@interface CustomFeedDetailTableViewController : UITableViewController
+@interface CustomFeedDetailTableViewController : UITableViewController
 @end
 @implementation CustomFeedDetailTableViewController
 - (void)viewDidLoad {
@@ -19,15 +18,12 @@
 
     
 
-    
-    
-    
-    
-/*-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-        UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"FeedDetailCell"];
-        if(cell == nil) {
-            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"FeedDetailCell"];
-        };
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
+ // Return NO if you do not want the specified item to be editable.
+ return YES;
+ }
+ */
+
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
         UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([CustomDetailTableViewCell class])];
         if(cell == nil){
@@ -35,4 +31,3 @@
         }
     };
 @end
-*/

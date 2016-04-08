@@ -36,6 +36,7 @@
     [self setupRefresh];
     
 }
+
 //PULL DOWN TO REFRESH VIEW
 -(void)setupRefresh {
     static BOOL firstStart = YES;
