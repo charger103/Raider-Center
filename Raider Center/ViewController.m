@@ -457,7 +457,7 @@ NSLog(@"%@", serverResponse);
                 }
                 
                 
-            }*/
+            }
             
             //Set UI Variables and call the UI:
             /*- (void)passInfoToUI {

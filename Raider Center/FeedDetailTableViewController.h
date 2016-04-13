@@ -7,5 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface CustomFeedDetailTableViewController : UITableViewController
+
+@interface CustomFeedDetailTableViewController : UITableViewController
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath;
+
 @end
